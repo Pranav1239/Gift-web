@@ -17,11 +17,64 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: url("../public/try1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.item {
+  max-width: 450px;
+  max-height: 350px;
+  width: 450px;
+  height: 350px;
+  background: #fff;
+  border-radius: 50px;
+  background-image: url("../public/Ily.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#Drag1 {
+  position: absolute;
+  /* background-color: red; */
+  /* width: 400px;
+  height: 600px; */
+  box-shadow: 10px 20px 20px;
+  cursor: pointer;
+}
+
+#Drag2 {
+  position: absolute;
+  /* background-color: red; */
+  /* width: 400px;
+  height: 600px; */
+  box-shadow: 10px 20px 20px;
+  transform: rotate(-20deg);
+  cursor: pointer;
+}
+
+#Drag3 {
+  position: absolute;
+  /* background-color: red; */
+  /* width: 400px;
+  height: 600px; */
+  box-shadow: 10px 20px 20px;
+  transform: rotate(20deg);
+  cursor: pointer;
+}
+
+#Drag4 {
+  cursor: pointer;
+  position: absolute;
+  /* background-color: red; */
+  /* width: 400px;
+  height: 600px; */
+  box-shadow: 10px 20px 20px;
+  transform: rotate(-10deg);
 }
