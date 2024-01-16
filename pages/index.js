@@ -79,16 +79,6 @@ export default function Home() {
           scale={1}
         >
           <div className="fitem">
-            <div className={`handle ${handle}`}>
-              <Image
-                src={image4}
-                alt="image"
-                className="border-2 shadow-xl"
-                width={400}
-                height={600}
-                id="Drag4"
-              />
-            </div>
           </div>
         </Draggable>
       </div>
