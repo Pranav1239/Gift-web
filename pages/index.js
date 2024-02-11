@@ -4,7 +4,6 @@ import Image from "next/image";
 import image1 from "../public/card/card3.png";
 import image2 from "../public/card/card1.png";
 import image3 from "../public/card/card2.png";
-import image4 from "../public/card/card0.png";
 
 export default function Home() {
   const handle = ".handle";
